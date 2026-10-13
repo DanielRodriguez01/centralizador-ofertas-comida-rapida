@@ -1,0 +1,35 @@
+# Dependencias de Node.js
+node_modules/
+Frontend/node_modules/
+
+# Archivos generados por Vite y compilaciones
+Frontend/dist/
+dist/
+build/
+
+# Variables de entorno y configuraciones privadas
+.env
+.env.*
+!.env.example
+
+# Archivos de registro
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Archivos locales de Visual Studio y .NET
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+
+# Archivos temporales de editores
+*.swp
+*.swo
