@@ -1,0 +1,6 @@
+@CentralizadorOfertas.Api_HostAddress = http://localhost:5189
+
+GET {{CentralizadorOfertas.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
